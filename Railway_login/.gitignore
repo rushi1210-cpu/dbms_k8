@@ -1,0 +1,62 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### OS Files ###
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+### Node / React (Frontend future) ###
+node_modules/
+dist/
+build/
+.env.local
+.env.*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables and database credentials
+.env
+.env.*
+!.env.example
+application-local.properties
+
+# Logs
+*.log
+logs/
+
+# Local database exports and backups (review before sharing)
+*.sql
+*.sql.gz
+
+# IDE and OS
+.DS_Store
+Thumbs.db
